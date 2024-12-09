@@ -1,0 +1,74 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', Montserrat;
+  color: #333;
+  background-color: #fafafa;
+  line-height: 1.7;
+}
+
+header {
+  background: #69a3dd;
+  padding: 1.5rem 0;
+  color: white;
+  text-align: center;
+  font-size: 2.2em;
+  font-weight: 700;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+div{
+  justify-items: center;
+}
+
+.contact-form {
+  padding: 1em;
+  width: 800px; 
+  height: auto; 
+  font-size: 1.5em; 
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.contact-input {
+  width: 100%;  
+  padding: 0.8em;
+  margin-bottom: 1em;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.contact-input-but {
+  width: 100%;  
+  padding: 0.8em;
+  margin-bottom: 1em;
+  font-size: 0.8em;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+button {
+  background-color: #69a3dd;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 12px 30px;
+  margin-bottom: 1em;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #538cc5;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
